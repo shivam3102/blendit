@@ -14,33 +14,19 @@ const Register = () => {
                                 Join Blendit
                             </h4>
                             <img src="assets/img/AsanArtist.png" className="mt-n3"  alt=""/>
-                            <ul>
-                                <li>
-                                    <div className="form-check">
-                                        <input className="form-check-input mt-1" type="checkbox" value="" id="flexCheckDefault" />
-                                        <label className="form-check-label brand-customer" htmlFor="flexCheckDefault">
-                                            Reach a brand new customer base
-                                        </label>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="form-check">
-                                        <input className="form-check-input mt-1" type="checkbox" value="" id="flexCheckDefault" />
-                                        <label className="form-check-label brand-customer" htmlFor="flexCheckDefault" >
-                                            Take your makeup business partially or fully online
-                                        </label>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="form-check">
-                                        <input className="form-check-input mt-1" type="checkbox" value="" id="flexCheckDefault" />
-                                        <label className="form-check-label brand-customer" htmlFor="flexCheckDefault" >
-                                            Grow your revenue effortlessly
-                                        </label>
-                                    </div>
-                                </li>
 
+                            <ul className='artist-list font-14 text-white'>
+                                <li>
+                                    <span>Reach a brand new customer base</span>
+                                </li>
+                                <li>
+                                    <span>Take your makeup business partially or fully online</span>
+                                </li>
+                                <li>
+                                    <span>Grow your revenue effortlessly</span>
+                                </li>
                             </ul>
+                            
                             <form action="" className="sign ">
                                 <div className="input-gup">
                                     <img src="assets/img/user.png" className="img" alt=""/>

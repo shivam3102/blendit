@@ -1,3 +1,9 @@
+/* header */
+.head-bord{
+  border-top: 1px solid;border-bottom: 1px solid;
+}
+
+
 .sign {
   margin: 10px 0px;
   height: auto !important; 
@@ -20,6 +26,25 @@
   margin-bottom: 0px;
   margin-left: 12px;
 }
+.headoval{
+  width: 60px;
+  position: absolute;
+  right: -45px;
+  z-index: 10;
+  top: 24px;
+}
+.head-icon{
+  width: 60px;
+  position: absolute;
+  right: -100px;
+  z-index: 10;
+  color: #c62e65;
+  top: 39px;
+  font-size: 28px;
+}
+.w-0{
+  width: 0px;
+}
 .font-14{
   font-size: 14px;
 }
@@ -27,6 +52,9 @@
   font-size: 18px;
 }
 .font-20{
+  font-size: 20px;
+}
+.font-28{
   font-size: 20px;
 }
 .font-25{
@@ -295,6 +323,9 @@ color: #fff;font-size: 13px;padding-left: 10px;
   text-align: left;
   border-radius: 4px;
 }
+.padx-30{
+  padding: 0px 30px;
+}
 .card-div h5 {
   font-size: 24px;
 }
@@ -306,3 +337,136 @@ color: #fff;font-size: 13px;padding-left: 10px;
   margin-right: 20px;
   padding: 20px;
 }
+
+.top-title{
+  font-size: 40px;
+}
+.padt-50{
+  padding-top:50px
+}
+.pii-artists h2 {
+  font-size: 48px;
+  margin-left: -100px;
+  position: relative;
+}
+
+.mark-artists span {
+  font-size: 18px;
+  font-weight: 600;
+}
+.mark-artists small {
+  margin-top: 4px;
+  font-size: 14px;
+}
+.product-head-title{
+  font-weight: 700;
+  font-size: 72px;
+}
+.pro-set-title{
+  position: absolute;
+    margin-left: -142px;
+    top: 60px;
+}
+.poau-artist{
+  position: absolute;
+    width: 63%;
+    top: 40px;
+    z-index: 1;
+}
+.artist-list li::before {content: '■'; color: #C62E65;
+  display: inline-block; width: 1em;
+margin-right: 10px;
+  margin-left: 1em}
+  .side-img{
+    position: absolute;
+    right: 0px;
+    width: 45%;
+    top: 0px;
+z-index: 1;
+  }
+  .artist-set{
+    position: relative;
+    z-index: 12;
+  }
+
+  .artist-text h4{
+    font-size: 24px;
+    color: #C62E65;
+    margin-bottom: 0px;
+  }
+  .artist-text span{
+    font-size: 18px;
+    color: #C62E65;
+  }
+  .artist-text small{
+    font-size: 14px;
+  }
+  .blog-link{
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .btn-dark{
+    border-radius: 0px;
+    color: #C62E65;
+    font-size: 14px;
+    border: 1px solid #C62E65;
+    font-weight: 400;
+    padding: 10px;
+    width: 300px;
+    background: transparent;
+  }
+  .btn-dark:hover{
+    background: #C62E65;
+    color:white;
+  }
+
+  .bg-dark-g{
+    background: #1f1f1f;
+  }
+  .font-48{
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .input-form{
+    background: transparent;
+    color: white;
+    height: 45px;
+  }
+  .font-16{
+    font-size: 16px;
+  }
+  .footer-list li{
+    margin-bottom: 6px;
+  }
+  .footer-list li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .foot-links li a{
+    color: white;
+  }
+  .footer-list li a:hover, .foot-links li a:hover{
+    color: #C62E65;
+
+  }
+.top-artist{
+  width: 46%;
+  position: absolute;
+  z-index: 1;
+  top: 75px;
+}
+ .just-center{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+ }
+ .w_50{
+   width: 50%;
+ }
+  @media screen and (max-width:480px) {
+    .just-center{
+      justify-content: center;
+    }
+  }

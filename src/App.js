@@ -12,13 +12,15 @@ import Contactus from './components/pages/Contactus';
 import BookingCenter from './components/pages/BookingCenter';
 import CheckLogin from './components/pages/CheckLogin';
 import Profile from './components/pages/Profile';
+import Home from './components/pages/Home';
 
 function App() {
   return (
     <Router>
        
         <Routes>
-            <Route exact path='/' element={<Register/>}/>
+            <Route exact path='/' element={<Home/>}/>
+            <Route exact path='/register' element={<Register/>}/>
             <Route exact path='/login' element={<Login/>}/>
             <Route exact path='/check-login' element={<CheckLogin/>}/>
             <Route exact path='/profile-picture' element={<ProfilePicture/>}/>
