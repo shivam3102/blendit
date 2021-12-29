@@ -13,6 +13,7 @@ import BookingCenter from './components/pages/BookingCenter';
 import CheckLogin from './components/pages/CheckLogin';
 import Profile from './components/pages/Profile';
 import Home from './components/pages/Home';
+import NearMe from './components/pages/user/NearMe';
 
 function App() {
   return (
@@ -29,6 +30,10 @@ function App() {
             <Route exact path='/booking-center' element={<BookingCenter/>}/>
             <Route exact path='/about' element={<About/>}/>
             <Route exact path='/contactus' element={<Contactus/>}/>
+
+            {/* //user */}
+            <Route exact path='/near-me' element={<NearMe/>}/>
+
         </Routes>
     </Router>
   );

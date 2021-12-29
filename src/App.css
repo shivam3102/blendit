@@ -465,6 +465,21 @@ z-index: 1;
  .w_50{
    width: 50%;
  }
+ .near-me-block{
+   border-radius: 15px;
+ }
+ .text-gradient{
+   text-align: left;
+   position: absolute;
+   bottom: 0px;
+   color: white;
+   font-size: 14px;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   width: 100%;
+   padding: 20px 15px;
+  background: linear-gradient(180deg, rgba(242,242,242,0) 5%, rgb(198 46 101 / 75%) 100%);
+ }
 
 
 @media screen and (max-width:480px) {
