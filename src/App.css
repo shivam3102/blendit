@@ -465,8 +465,74 @@ z-index: 1;
  .w_50{
    width: 50%;
  }
-  @media screen and (max-width:480px) {
+
+
+@media screen and (max-width:480px) {
     .just-center{
       justify-content: center;
     }
+    .top-artist {
+      width: 100%;
+      position: relative;
+      z-index: 1;
+      top: 0px;
+      padding: 0px 15px;
+    }
+    .top-title {
+      font-size: 24px;
+    }
+    .pii-artists h2 {
+      font-size: 30px;
+      margin-left: 0px;
+      position: relative;
+    }
+
+    .product-head-title {
+      font-weight: 700;
+      font-size: 32px;
+    }
+    .pro-set-title {
+      position: relative;
+      margin-left: 0px;
+      top: 0px;
+    }
+    .poau-artist {
+      position: relative;
+      width: 100%;
+      top: 0px;
+      z-index: 1;
+    }
+    .artist-list li span{
+      font-size: 14px;
+    }
+    .artist-list li::before {
+      content: '■';
+      color: #C62E65;
+      display: inline-block;
+      width: 14px;
+      margin-right: 10px;
+      margin-left: 0em;
+    }
+    .blog-link {
+      display: block;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .artist-text h4 {
+      font-size: 16px;
+    }
+    .artist-text span {
+      font-size: 14px;  
+    }
+    .font-48 {
+      font-size: 22px;
+      font-weight: 700;
+    }
+    .te-center{
+      justify-content: center;
+    }
+
+
+
+
   }

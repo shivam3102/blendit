@@ -118,8 +118,8 @@ const Home = () => {
 
             <section className='position-relative'>
                     <img src="assets/img/side-img.png" className='side-img img-fluid mt-5' alt="" />
-                    <div className='container py-5 position-relative'>
-                        <img src="assets/img/JoinBlendit.png" className='img-fluid mt-5' alt="" />
+                    <div className='container pt-5 position-relative'>
+                        <img src="assets/img/JoinBlendit.png" className='img-fluid mt-5 artist-set' alt="" />
                         
                         <div className='mt-5 row artist-set'>
                             <div className='col-md-5 py-5'>
@@ -292,7 +292,7 @@ const Home = () => {
                     <div className='row py-2'>
                         <div className='col-md-4'>
                             <div className=''>
-                                <ul className='list-unstyled d-flex mb-0'>
+                                <ul className='list-unstyled te-center d-flex mb-0'>
                                     <li>
                                         <Link to=''>
                                             <img src="assets/img/facebook.png" className='img-fluid' alt=''/>
