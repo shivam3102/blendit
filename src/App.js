@@ -14,6 +14,7 @@ import CheckLogin from './components/pages/CheckLogin';
 import Profile from './components/pages/Profile';
 import Home from './components/pages/Home';
 import NearMe from './components/pages/user/NearMe';
+import AboutYou from './components/pages/AboutYou';
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
             <Route exact path='/booking-center' element={<BookingCenter/>}/>
             <Route exact path='/about' element={<About/>}/>
             <Route exact path='/contactus' element={<Contactus/>}/>
+
+            <Route exact path='/about-you' element={<AboutYou/>}/>
+            {/* <Route exact path='/about-you' element={}/> */}
 
             {/* //user */}
             <Route exact path='/near-me' element={<NearMe/>}/>
