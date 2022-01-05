@@ -15,6 +15,7 @@ import Profile from './components/pages/Profile';
 import Home from './components/pages/Home';
 import NearMe from './components/pages/user/NearMe';
 import AboutYou from './components/pages/AboutYou';
+import Photos from './components/pages/user/Photos';
 
 function App() {
   return (
@@ -37,7 +38,8 @@ function App() {
 
             {/* //user */}
             <Route exact path='/near-me' element={<NearMe/>}/>
-
+            <Route exact path='/following' element={<NearMe/>}/>
+            <Route exact path='/user-details' element={<Photos/>}/>
         </Routes>
     </Router>
   );

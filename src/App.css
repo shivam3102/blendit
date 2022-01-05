@@ -328,6 +328,7 @@ color: #fff;font-size: 13px;padding-left: 10px;
 }
 .card-div h5 {
   font-size: 24px;
+  line-height: 27px;
 }
 .card-div p {
   padding-bottom: 10px;
@@ -336,6 +337,25 @@ color: #fff;font-size: 13px;padding-left: 10px;
 .card-div {
   margin-right: 20px;
   padding: 20px;
+}
+.bg-gradient{
+  background: linear-gradient(
+    180deg, rgba(242,242,242,0) 5%, rgb(198 46 101 / 75%) 100%);
+}
+.video-gr .play {
+  position: absolute;
+  font-size: 70px;
+  color: #fff;
+  top: 0px;
+  background: linear-gradient(
+    180deg, rgba(242,242,242,0) 5%, rgb(198 46 101 / 75%) 100%);
+    width: 98%;
+    height: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 4px;
+    border-radius: 5px;
 }
 
 .top-title{
@@ -372,6 +392,9 @@ color: #fff;font-size: 13px;padding-left: 10px;
     width: 63%;
     top: 40px;
     z-index: 1;
+}
+.line-1{
+  line-height: 1;
 }
 .artist-list li::before {content: '■'; color: #C62E65;
   display: inline-block; width: 1em;
@@ -485,7 +508,15 @@ z-index: 1;
   right: 10px;
   position: absolute;
 }
-
+.user-image{
+  border-radius: 50%;
+  width: 250px;
+    height: 250px;
+    margin-bottom: 40px;
+}
+.w-unset{
+  width: unset;
+}
 @media screen and (max-width:480px) {
     .just-center{
       justify-content: center;

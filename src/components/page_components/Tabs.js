@@ -46,204 +46,15 @@ const Tabs = () => {
                                         <div id="tabs-1595650811758-0" data-col="tabs-1595650811758-0" class="contents tab-pane fade product_col4">
                                             <div>
                                                 <div class="col-xs-12">
-                                                    <div class="col-xs-30">
-                                                        <button type="button" className="btn_ai" data-toggle="modal" data-target="#myModal-2">
-                                                            <img src="assets/img/Screenshot-1.png" className=" paus" alt=""  />
-                                                        </button>
-                                                        <div class="modal fade" id="myModal-2" role="dialog">
-                                                            <div class="modal-dialog">
-                                                                <div class="modal-content">
-
-                                                                    <div class="col-sm-12">
-                                                                        <div class="form__img">
-                                                                            <h2>Upload a video</h2>
-                                                                            <h5 class="side-title">
-                                                                                Youtube URL
-                                                                            </h5>
-                                                                            <input type="text"/>
-                                                                            <h5 class="side-title">
-                                                                                Youtube URL
-                                                                            </h5>
-                                                                            <input type="text"/>
-                                                                            <h5  class=" side-title">
-                                                                                Description
-                                                                            </h5>
-                                                                            <p class="mb-1 ">
-                                                                                Caption the image
-                                                                            </p>
-                                                                            <textarea name="" id="" className='piks' placeholder="Image description" cols="30" rows="10"></textarea>
-                                                                            <small class="float-right">0 / 1000
-                                                                                Characters Max.</small>
-                                                                            <h5 className="font-25 mb-1 font-weight-light">
-                                                                                Tags
-                                                                            </h5>
-                                                                            <div className="position-relative">
-                                                                                <input type="text" placeholder="Search..." className="border-20" />
-                                                                                <ion-icon name="search-outline"  role="img" class="search-input md hydrated" aria-label="search outline">
-                                                                                </ion-icon>
-                                                                            </div>
-                                                                            <ul className="d-flex flex-wrap border-bottom pb-3 ">
-                                                                                <li className="m-2;">
-                                                                                    <button class="btn d-flex ppiYbj" >
-                                                                                        <span>
-                                                                                            Loréal Dark Lashes
-                                                                                        </span>
-                                                                                        <ion-icon
-                                                                                            name="checkmark-outline"
-                                                                                    
-                                                                                            role="img"
-                                                                                            class="md hydrated font-18 pl-1"
-                                                                                            aria-label="checkmark outline">
-                                                                                        </ion-icon>
-                                                                                    </button>
-                                                                                </li>
-
-                                                                            </ul>
-                                                                            <h5 class=" font-25 mb-1 font-weight-light">
-                                                                                Products used
-                                                                            </h5>
-                                                                            <div className="position-relative">
-                                                                                <input type="text" placeholder="Search..." className="border-20" />
-                                                                                <ion-icon name="search-outline"  role="img" class="search-input md hydrated" aria-label="search outline">
-                                                                                </ion-icon>
-                                                                            </div>
-                                                                            <ul className="d-flex flex-wrap border-bottom pb-3 ">
-                                                                                <li className="m-2">
-                                                                                    <button class="btn d-flex ppiYbj" >
-                                                                                        <span>
-                                                                                            Loréal Dark Lashes
-                                                                                        </span>
-                                                                                        <ion-icon
-                                                                                            name="checkmark-outline"
-                                                                                    
-                                                                                            role="img"
-                                                                                            class="md hydrated font-18 pl-1"
-                                                                                            aria-label="checkmark outline">
-                                                                                        </ion-icon>
-                                                                                    </button>
-                                                                                </li>
-
-                                                                            </ul>
-
-                                                                            <button class="button profile-buottn bg-gray-o" data-toggle="modal" data-target="#myModal-3">
-                                                                                ADD VIDEO
-                                                                            </button>
-
-
-                                                                            <div class="modal fade" id="myModal-3" role="dialog">
-                                                                                <div class="modal-dialog">
-                                                                                    <div class="modal-content">
-
-                                                                                        <div class="col-sm-12">
-                                                                                            <div class="form__img">
-                                                                                                <h2>Upload a video</h2>
-                                                                                                <input type="file" className="img-si" accept=".png, .jpg, .jpeg"/>
-                                                                                                <button class="button profile-buottn">
-                                                                                                    UPLOAD FILE (.JPG or .PNG)
-                                                                                                </button>
-                                                                                                <span>
-                                                                                                    3 mb maximum file size
-                                                                                                </span>
-                                                                                                <h5 class=" sub-title">
-                                                                                                    Description
-                                                                                                </h5>
-                                                                                                <p class=" mb-1">
-                                                                                                    Caption the image
-                                                                                                </p>
-                                                                                                <textarea name="" id=""  className="piks"  placeholder="Image description" cols="30" rows="10"></textarea>
-                                                                                                <span className='float-right font-10'>0 / 1000
-                                                                                                    Characters Max.</span>
-                                                                                                <h5 class=" mb-1 font-25 font-weight-light" >
-                                                                                                    Tags
-                                                                                                </h5>
-                                                                                                <div className="position-relative">
-                                                                                                    <input type="text" placeholder="Search..." className="border-20" />
-                                                                                                    <ion-icon name="search-outline"  role="img" class="search-input md hydrated" aria-label="search outline">
-                                                                                                    </ion-icon>
-                                                                                                </div>
-                                                                                                <ul className="d-flex flex-wrap border-bottom pb-3 ">
-                                                                                                    <li className='m-2'>
-                                                                                                        <button class="btn d-flex ppiYbj" >
-                                                                                                            <span>
-                                                                                                                Loréal Dark Lashes
-                                                                                                            </span>
-                                                                                                            <ion-icon
-                                                                                                                name="checkmark-outline"
-                                                                                                        
-                                                                                                                role="img"
-                                                                                                                class="md hydrated font-18 pl-1"
-                                                                                                                aria-label="checkmark outline">
-                                                                                                            </ion-icon>
-                                                                                                        </button>
-                                                                                                    </li>
-
-                                                                                                </ul>
-                                                                                                <h5 className='mb-1 font-25 font-weight-light'>
-                                                                                                    Products used
-                                                                                                </h5>
-                                                                                                <div className="position-relative">
-                                                                                                    <input type="text" placeholder="Search..." className="border-20" />
-                                                                                                    <ion-icon name="search-outline"  role="img" class="search-input md hydrated" aria-label="search outline">
-                                                                                                    </ion-icon>
-                                                                                                </div>
-                                                                                                <ul className="d-flex flex-wrap border-bottom pb-3 ">
-                                                                                                    <li className='m-2'>
-                                                                                                        <button class="btn d-flex ppiYbj" >
-                                                                                                            <span>
-                                                                                                                Loréal Dark Lashes
-                                                                                                            </span>
-                                                                                                            <ion-icon
-                                                                                                                name="checkmark-outline"
-                                                                                                        
-                                                                                                                role="img"
-                                                                                                                class="md hydrated font-18 pl-1"
-                                                                                                                aria-label="checkmark outline">
-                                                                                                            </ion-icon>
-                                                                                                        </button>
-                                                                                                    </li>
-
-                                                                                                </ul>
-                                                                                                <button class="button profile-buottn bg-gray-o" >
-                                                                                                    UPLOAD FILE (.JPG or .PNG)
-                                                                                                </button>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="modal-footer">
-                                                                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                                                                        </div>
-
-                                                                                    </div>
-
-                                                                                </div>
-                                                                            </div>
-
-
-                                                                        </div>
-                                                                    </div>
-
-
-
-
-                                                                    <div class="modal-footer">
-                                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                                                    </div>
-
-
-
-
-
-                                                                </div>
-
+                                                  
+                                                    <div class="col-xs-30 px-2">
+                                                        <div className='video-gr position-relative'>
+                                                            <img src="assets/img/Rectangle-1.png" alt="" className='img-fluid w-100' />
+                                                            <div class="play">
+                                                                <ion-icon name="play-circle-outline"></ion-icon>
                                                             </div>
                                                         </div>
-
-                                                    </div>
-                                                    <div class="col-xs-30">
-                                                        <img src="assets/img/Rectangle-1.png" alt="" />
-                                                        <div class="play">
-                                                            <ion-icon name="play-circle-outline"></ion-icon>
-                                                        </div>
-                                                        <div class="card-div">
+                                                        <div class="card-div mx-0">
                                                             <h5>
                                                                 Eyebrow tricks that work!
                                                             </h5>
@@ -252,12 +63,14 @@ const Tabs = () => {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-xs-30">
-                                                        <img src="assets/img/Rectangle-1.png" alt=""/>
-                                                        <div class="play">
-                                                            <ion-icon name="play-circle-outline"></ion-icon>
+                                                    <div class="col-xs-30 px-2">
+                                                        <div className='video-gr position-relative'>
+                                                            <img src="assets/img/Rectangle-1.png" alt="" className='img-fluid w-100' />
+                                                            <div class="play">
+                                                                <ion-icon name="play-circle-outline"></ion-icon>
+                                                            </div>
                                                         </div>
-                                                        <div class="card-div">
+                                                        <div class="card-div mx-0">
                                                             <h5>
                                                                 Eyebrow tricks that work!
                                                             </h5>
@@ -266,62 +79,8 @@ const Tabs = () => {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-xs-30">
-                                                        <img src="assets/img/Rectangle-1.png" alt=""/>
-                                                        <div class="play">
-                                                            <ion-icon name="play-circle-outline"></ion-icon>
-                                                        </div>
-                                                        <div class="card-div">
-                                                            <h5>
-                                                                Eyebrow tricks that work!
-                                                            </h5>
-                                                            <p>
-                                                                Foundation: Rimmel Lasting Finish Eyelashes: Lacôme Teint Idole Lipstick: CYO Sheen Sweep
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xs-30">
-                                                        <img src="assets/img/Rectangle-1.png" alt=""/>
-                                                        <div class="play">
-                                                            <ion-icon name="play-circle-outline"></ion-icon>
-                                                        </div>
-                                                        <div class="card-div">
-                                                            <h5>
-                                                                Eyebrow tricks that work!
-                                                            </h5>
-                                                            <p>
-                                                                Foundation: Rimmel Lasting Finish Eyelashes: Lacôme Teint Idole Lipstick: CYO Sheen Sweep
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xs-30">
-                                                        <img src="assets/img/Rectangle-1.png" alt=""/>
-                                                        <div class="play">
-                                                            <ion-icon name="play-circle-outline"></ion-icon>
-                                                        </div>
-                                                        <div class="card-div">
-                                                            <h5>
-                                                                Eyebrow tricks that work!
-                                                            </h5>
-                                                            <p>
-                                                                Foundation: Rimmel Lasting Finish Eyelashes: Lacôme Teint Idole Lipstick: CYO Sheen Sweep
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xs-30">
-                                                        <img src="assets/img/Rectangle-1.png" alt=""/>
-                                                        <div class="play">
-                                                            <ion-icon name="play-circle-outline"></ion-icon>
-                                                        </div>
-                                                        <div class="card-div">
-                                                            <h5>
-                                                                Eyebrow tricks that work!
-                                                            </h5>
-                                                            <p>
-                                                                Foundation: Rimmel Lasting Finish Eyelashes: Lacôme Teint Idole Lipstick: CYO Sheen Sweep
-                                                            </p>
-                                                        </div>
-                                                    </div>
+                                                    
+                                                   
                                                 </div>
 
 
