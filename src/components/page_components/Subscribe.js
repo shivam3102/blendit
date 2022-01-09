@@ -2,7 +2,7 @@ import React from 'react';
 
 const Subscribe = () => {
     return (
-        <div className='bg-dark-g py-5 '>
+        <div className='bg-dark-g py-5 my-5'>
             <div className='container'>
                 <div className='row py-3'>
                     <div className='col-md-5'>
