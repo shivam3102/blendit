@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Footer from '../layouts/Footer';
 
 const About = () => {
     return (
         <React.Fragment>
-            <main className="main-content mb-250" >
+            <main className="main-content " >
                 <div className="container">
                     <div className="row">
-                        <div className="login ">
+                        <div className="login text-white">
                             <img src="assets/img/aboute.png" alt="" className="artist-2 pl-4"/>
 
                             <div className="col-sm-12">
@@ -32,10 +33,10 @@ const About = () => {
 
                                                 <input type="date" className="pl-4 "/>
                                             </div>
-                                            <div className="form-check">
-                                                <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                                                <label className="form-check-label" for="flexCheckDefault">
-                                                    Remember me
+                                            <div className="form-check form-check-check">
+                                                <input className="form-check-input mt-3 mr-2" type="checkbox" value="" id="flexCheckDefault"/>
+                                                <label className="text-white form-check-label ml-4 font-20" for="flexCheckDefault">
+                                                    Make my age private
                                                 </label>
                                             </div>
                                             <h5 className="font-40">
@@ -52,9 +53,9 @@ const About = () => {
                                             <p>
                                                 Your areas of specialisation and core skills
                                             </p>
-                                            <div className="position-relative;">
+                                            <div className="position-relative">
                                                 <input type="text" placeholder="Search..." className="input-core"/>
-                                                <ion-icon name="search-outline" className="search-outine"></ion-icon>
+                                                <span className='search-iconn'><i class="fas fa-search"></i></span>
                                             </div>
                                             <ul className="d-flex flex-wrap border-bottom pb-3">
 
@@ -240,76 +241,7 @@ const About = () => {
                 </div>
         
 
-                <div id="shopify-section-footer-model-2" className="shopify-section">
-
-                    <footer className="site-footer text-left" data-section-id="footer-model-2">
-                        <img src="assets/img/footer-bottom.png" className="fottor-bottom" alt=""/>
-                        <img src="assets/img/main-logo.png" className="fottor-logo" alt=""/>
-                        <div className="footer-wrap">
-                            <div className="container">
-                                <div className="row">
-                                    <div className="text-left grid">
-                                        <div className="col-sm-12 footer-links">
-                                            <div className="col-sm-12 footer-column">
-
-                                                <ul className="inline-list nav-secondary">
-                                                    <li><a href="search.html">About</a></li>
-                                                    <li><a href="pages/about-us.html">Artists</a></li>
-                                                    <li><a href="pages/faqs.html">Blog</a></li>
-                                                    <li><a href="pages/delivery.html">Contact</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="footer-bottom-wrap">
-                                <div className="container">
-                                    <div className="footer-bottom">
-                                        <div className="midia">
-                                            <ul>
-                                                <li>
-                                                    <Link to="#">
-                                                        <ion-icon name="logo-facebook"></ion-icon>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link to="#">
-                                                        <ion-icon name="logo-twitter"></ion-icon>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link to="#">
-                                                        <ion-icon name="logo-instagram"></ion-icon>
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="d-inline-block pt-6">
-                                            <div>
-                                                <span>© 2020 Flashtag Ltd</span>
-                                            </div>
-                                        </div>
-                                        <div className="follow-us-outer text-center">
-                                            <ul className="inline-list">
-                                                <li>
-                                                    <Link to="#">
-                                                        <span className="fallback-text">Support</span>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link to="#">
-                                                        <span className="fallback-text">Terms of Service</span>
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </footer>
-                </div>
+                <Footer/>
             </main>
 
 

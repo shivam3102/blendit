@@ -1,60 +1,64 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Footer from '../layouts/Footer';
 
 const Contactus = () => {
     return (
-        <main class="main-content">
-            <img src="assets/img/side-img.png" class="side-img" alt=""/>
-            <div class="container">
-                <div class="row">
-                    <div class="login col-sm-6">
-                        <div class="title-up">
-
-
-
-                            <form action="" class="sign">
-                                <h4>
-                                    Log into Blendit
-                                </h4>
-                                <p>
-                                    Log in to your artist portal
-                                </p>
-                                <div class="input-gup">
-                                    <img src="assets/img/email.png" class="img" alt=""/>
-                                    <input type="text" placeholder="Email…"/>
+        <main className="main-content">
+            <div className="container">
+                <div className="row">
+                    <div className="login ">
+                        <img src="assets/img/AsanArtist-2.png" alt="" className="artist-2" />
+                        <div className="title-up col-sm-6">
+                            <h5>
+                                Let’s get going with your profile.
+                            </h5>
+                            <h4>
+                                Set your location
+                            </h4>
+                        </div>
+                        <div className="col-sm-12">
+                            <div id="shopify-section-google-map" className="shopify-section">
+                                <div id="google_map" data-section-id="google-map" data-section-type="map-section">
+                                    <div id="map"></div>
                                 </div>
-                                <div class="input-gup">
-                                    <img src="assets/img/lock.png" class="img" alt=""/>
+                                <div className="contact_d">
+                                    <button type="button" className="contact-btn" data-toggle="modal" data-target="#myModal"></button>
+                                </div>
+                                <div className="modal fade" id="myModal" role="dialog">
+                                    <div className="modal-dialog">
 
-                                    <input type="text" placeholder="Create password..."/>
+
+                                        <div className="modal-content">
+                                            <div className="modal-header">
+                                                <button type="button" className="close" data-dismiss="modal">&times;</button>
+                                                <h4 className="modal-title">Where are you based?</h4>
+                                            </div>
+                                            <div className="modal-body">
+                                                <div className="input-gup">
+                                                    <ion-icon name="location-outline" className="contact-icon"></ion-icon>
+                                                    <input type="text" className='pl-5' placeholder="Location…" />
+                                                </div>
+                                            </div>
+                                            <div className="modal-footer">
+                                                <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
                                 </div>
 
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Remember me
-                                    </label>
-                                </div>
-
-                                <span>
-                              
-                                    <Link to="">Forgot your password?</Link>
-                                </span>
-                                <button class="button">
-                                    LOG IN
-                                </button>
-
-                                <span>
-                                    Don’t have an account yet? 
-                                    <Link to="">Create account</Link>
-                                </span>
-                            </form>
-
-
+                                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDS1A1NkVZlfNpumO5nQlAPEKFjyxcvuWs"></script>
+                            </div>
+                            <button className="btn col-sm-6">
+                                SIGN UP - IT’S FREE
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <Footer/>
         </main>
     );
 }

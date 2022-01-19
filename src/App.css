@@ -3,7 +3,9 @@
   border-top: 1px solid;border-bottom: 1px solid;
 }
 
-
+.site-header .sticky_header.fixed{
+  z-index: 222 !important;
+}
 .sign {
   margin: 10px 0px;
   height: auto !important; 
@@ -205,7 +207,9 @@
   height: 100px;font-size: 14px;margin-bottom: 10px;
 }
 
-
+.hydrated{
+  margin: 3px;
+}
 .TTProduct-Tab .nav-tabs>li>a::after {
   background: none;
   border: none;
@@ -214,10 +218,13 @@
 
 .TTProduct-Tab .nav-tabs>li.active>a,
 .TTProduct-Tab .nav-tabs>li>a:focus {
+  border: 0px;
   color: #ffffff;
   border-bottom: 4px solid #C62E65;
 }
-
+.TTProduct-Tab .nav-tabs{
+  border-bottom: 0px;
+}
 .TTProduct-Tab .nav-tabs>li>a:hover {
   color: #ffffff;
 }
@@ -542,10 +549,70 @@ z-index: 1;
 .font-28p{
   font-size: 28px;
 }
-
-
-
+.font-36{
+  font-size: 36px;
+}
+.col-dark{
+  color: #2F1847;
+}
+.width-60{
+  width: 70px !important;
+}
+.w-300{
+  width: 300px;
+}
+.w-17{
+  width:17px;
+}
+.contact-d{
+  position: absolute;top: 37%;right: 48.9%;padding: 1px 7px;border-radius: 50%;background: #fff;padding-bottom: 7px;
+}
+.contact-btn{
+  border-radius: 50%;padding: 7px;background: #c62e65;border: none;
+}
+.contact-icon{
+  font-size: 28px;position: absolute;top: 7px;left: 13px;color: #c62e65;
+}
+#map {
+  height: 700px;
+  width: 100%;
+  border-radius: 15px;
+}
+.form-check-account input[type="checkbox"]{
+  width: 16px;
+  height: 16px;
+  margin-top: 6px !important;
+}
+.form-check-account label{
+  padding-left: 20px !important;
+}
+.payment .input-gup input {
+  font-weight: 300;
+  color: #2F1847;
+  border: 1px solid #2F1847;
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  background: white;
+  padding-left: 50px;
+}
+.payment .input-gup input::placeholder {
+  color: #2F1847 !important;
+}
+.template-index .main-content .shopify-section{
+  float:unset !important;
+}
+.social-icons-s span{
+    font-size: 34px;
+    color: #C62E65;
+    margin-right: 28px;
+}
 @media screen and (max-width:480px) {
+    .social-icons-s span{
+        font-size: 24px;
+        color: #C62E65;
+        margin-right: 28px;
+    }
     .just-center{
       justify-content: center;
     }
@@ -614,6 +681,86 @@ z-index: 1;
 
 
   }
+.search-iconn{
+  position: absolute;
+  top: 5px;
+  right: 14px;
+  font-size: 20px !important;
+}
+  .form-check-check li{ 
+    margin-top: 18px;
+  }
+  .form-check-label span{
+    font-size: 20px !important;
+    font-weight: 600 !important;
+  }
+  .form-check-check strong{
+    font-size: 16px;
+    color: white;
+  }
+  
 
 
+  /***** RADIO BUTTON STYLES *****/
+.form-check-check {
+  position: relative;
+}
 
+
+.form-check-check input[type="radio"],
+.form-check-check input[type="checkbox"] {
+  display:none;
+}
+.form-check-check input[type="radio"] + .radio-check,
+.form-check-check input[type="checkbox"] + .radio-check {
+  display:inline-block;
+  position: relative;
+  margin-left: 21px;
+}
+.form-check-check input[type="radio"] + .radio-check:before,
+.form-check-check input[type="checkbox"] + .radio-check:before {
+  content:'';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  left: -20px;
+  top: 6px;
+  border: 1px solid white;
+}
+.form-check-check input[type="radio"] + .radio-check:before {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -khtml-border-radius: 50%;
+}
+.form-check-check input[type="radio"]:checked + .radio-check:after,
+.form-check-check input[type="checkbox"]:checked + .radio-check:after {
+  content:'';
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  background-color: #C62E65;
+  left: -17.7px;
+  top: 8.4px;
+  border: 1px solid white;
+}
+.form-check-check input[type="radio"]:checked + .radio-check:after {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -khtml-border-radius: 50%;
+}
+
+.btn-booked{
+  background:#C6C6C6 !important;
+  color: #707070 !important;
+  width: 80% !important;
+}
+.btn-black{
+  background: black !important;
+}
+.booking-timing span{
+  font-size: 16px !important;
+  color: #0064B2;
+}

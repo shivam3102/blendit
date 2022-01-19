@@ -31,7 +31,7 @@ const Header = () => {
                                                     </Link>
                                                 </li> */}
                                                 <li class="tt_menu_item full tt_mm_hassub">
-                                                    <Link to="#">
+                                                    <Link to="profile">
                                                         <span class="tt_menu_item_heading_title">
                                                             My products
                                                         </span>
@@ -45,7 +45,7 @@ const Header = () => {
                                                     </Link>
                                                 </li>
                                                 <li class="tt_menu_item full tt_mm_hassub">
-                                                    <Link to="/contact">
+                                                    <Link to="/contactus">
                                                         <span class="tt_menu_item_heading_title">
                                                           Contact
                                                         </span>
@@ -72,13 +72,13 @@ const Header = () => {
                                                 <Link to="#"><span class="tt_menu_item_heading_title">MORE<span></span></span></Link>
                                                 <ul class="tt_sub_menu_linklist tt_sub_menu_wrap ml-0">
                                                 <li id="menu--1546336998226" class="tt_menu_item left tt_mm_hassub">
-                                                    <Link to="#">
+                                                    <Link to="/profile">
                                                         <span class="tt_menu_item_heading_title">
                                                             My profile
                                                         </span>
                                                     </Link>
 
-                                                    <Link to="#" class="b-1 ">
+                                                    <Link to="account" class="b-1 ">
                                                         <span class="tt_menu_item_heading_title">
                                                             My account
                                                         </span>

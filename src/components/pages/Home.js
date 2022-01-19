@@ -8,7 +8,7 @@ import Subscribe from '../page_components/Subscribe';
 const Home = () => {
     return (
         <div class="page-wrapper page-element">
-            <Header/>
+          
             <main class="main-content">
                 <div className='container'>
                     <div className='row  mt-5 position-relative'>
