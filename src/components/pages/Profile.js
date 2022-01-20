@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Footer from '../layouts/Footer';
+import Subscribe from '../page_components/Subscribe';
 // import { Link } from 'react-router-dom';
 
 const Profile = () => {
     return (
-        <React.Fragment>
+        <div class="page-wrapper page-element">
             <main class="main-content">
                 <div class="container">
                     <div class="row">
@@ -236,7 +238,7 @@ const Profile = () => {
                                                                                             Description
                                                                                         </h5>
                                                                                         <p className="mb-1">
-                                                                                            Caption the image
+                                                                                            Caption The Image
                                                                                         </p>
                                                                                         <textarea name="" id="" className="piks" placeholder="Image description" cols="30" rows="10"></textarea>
                                                                                         <small className="float-right">0 / 1000
@@ -367,13 +369,13 @@ const Profile = () => {
                                                                                     <div class="form__img">
                                                                                         <h2>Upload a video</h2>
                                                                                         <h5 class="side-title">
-                                                                                            Youtube URL
+                                                                                            Youtube/Vimeo URL
                                                                                         </h5>
                                                                                         <input type="text"/>
-                                                                                        <h5 class="side-title">
+                                                                                        {/* <h5 class="side-title">
                                                                                             Youtube URL
                                                                                         </h5>
-                                                                                        <input type="text"/>
+                                                                                        <input type="text"/> */}
                                                                                         <h5  class=" side-title">
                                                                                             Description
                                                                                         </h5>
@@ -409,7 +411,7 @@ const Profile = () => {
 
                                                                                         </ul>
                                                                                         <h5 class=" font-25 mb-1 font-weight-light">
-                                                                                            Products used
+                                                                                            Products Used
                                                                                         </h5>
                                                                                         <div className="position-relative">
                                                                                             <input type="text" placeholder="Search..." className="border-20" />
@@ -1325,12 +1327,13 @@ const Profile = () => {
                             </div>
                         </div>
 
-
-
                     </div>
+
+                    <Subscribe/>
+                    <Footer/>
                 </div>
             </main>
-        </React.Fragment>
+        </div>
     );
 }
 

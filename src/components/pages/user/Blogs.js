@@ -23,7 +23,7 @@ const Blogs = () => {
                                         </div>
                                         <div className='artist-text'>
                                             <h4>Category</h4>
-                                            <Link to="" className='text-white blog-link'>Best makeup for your gals</Link>
+                                            <Link to="/blog-article" className='text-white blog-link'>Best makeup for your gals</Link>
                                             <span>Author: Lucille Mendez</span>
                                             <small className='text-white d-block'>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
@@ -40,7 +40,7 @@ const Blogs = () => {
                                         </div>
                                         <div className='artist-text'>
                                             <h4>Category</h4>
-                                            <Link to="" className='text-white blog-link'>Best makeup for your gals</Link>
+                                            <Link to="/blog-article" className='text-white blog-link'>Best makeup for your gals</Link>
                                             <span>Author: Lucille Mendez</span>
                                             <small className='text-white d-block'>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
@@ -58,7 +58,7 @@ const Blogs = () => {
                                         </div>
                                         <div className='artist-text'>
                                             <h4>Category</h4>
-                                            <Link to="" className='text-white blog-link'>Best makeup for your gals</Link>
+                                            <Link to="/blog-article" className='text-white blog-link'>Best makeup for your gals</Link>
                                             <span>Author: Lucille Mendez</span>
                                             <small className='text-white d-block'>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 

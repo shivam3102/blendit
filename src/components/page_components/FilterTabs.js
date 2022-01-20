@@ -264,67 +264,68 @@ const FilterTabs = () => {
                                                                 </ul>
                                                                 
                                                                 <div className="form-check mt-4 form-check-check" >
-                                                                    <input className=" mt-3" type="checkbox" value="" id="flexCheckDefault1" />
                                                                     <label className="font-weight-bold text-white font-24 pl-2" for="flexCheckDefault1">
-                                                                    Main content type
+                                                                        <input className=" mt-3" type="checkbox" value="" id="flexCheckDefault1" />
+                                                                        <span className='radio-check'>Main content type</span>
                                                                     </label>
                                                                     <div className="form-check pl-4" >
                                                                         <ui className="list-unstyled">
+                                                                           
                                                                             <li>
-                                                                                <div className='d-flex'>
+                                                                                <label className='d-flex'>
                                                                                     <input type="radio" name="profile_activity"/>
-                                                                                    <div className='ml-3 line-1'>
+                                                                                    <div className='ml-3 radio-check line-1'>
                                                                                         <strong>Photo</strong><br/>
                                                                                         <span>Along with product listings</span>
                                                                                     </div>
-                                                                                </div>
+                                                                                </label>
                                                                             </li>
                                                                             <li>
-                                                                                <div className='d-flex'>
+                                                                                <label className='d-flex'>
                                                                                     <input type="radio" name="profile_activity"/>
-                                                                                    <div className='ml-3 line-1'>
+                                                                                    <div className='ml-3 radio-check line-1'>
                                                                                         <strong>Video</strong><br/>
                                                                                         <span>Learn through seeing action</span>
                                                                                     </div>
-                                                                                </div>
+                                                                                </label>
                                                                             </li>
                                                                             <li>
-                                                                                <div className='d-flex'>
+                                                                                <label className='d-flex'>
                                                                                     <input type="radio" name="profile_activity"/>
-                                                                                    <div className='ml-3 line-1'>
+                                                                                    <div className='ml-3 radio-check line-1'>
                                                                                         <strong>Tutorials</strong><br/>
                                                                                         <span>Learn step-by-step</span>
                                                                                     </div>
-                                                                                </div>
+                                                                                </label>
                                                                             </li>
                                                                         </ui>
                                                                     </div>
                                                                 </div>
 
                                                                 <div className="form-check mt-4 form-check-check" >
-                                                                    <input className=" mt-3" type="checkbox" value="" id="flexCheckDefault2" />
                                                                     <label className="font-weight-bold text-white font-24 ml-2" for="flexCheckDefault2">
-                                                                        Appointments
+                                                                         <input className=" mt-3" type="checkbox" value="" id="flexCheckDefault2" />
+                                                                        <span className='radio-check'>Appointments</span> 
                                                                     </label>
                                                                     <div className="form-check pl-4" >
                                                                         <ui className="list-unstyled">
                                                                             <li>
-                                                                                <div className='d-flex'>
+                                                                                <label className='d-flex'>
                                                                                     <input type="radio" name="profile_activity"/>
-                                                                                    <div className='ml-3 line-1'>
+                                                                                    <div className='ml-3 radio-check line-1'>
                                                                                         <strong>Online</strong><br/>
                                                                                         <span>Book appointments online sessions</span>
                                                                                     </div>
-                                                                                </div>
+                                                                                </label>
                                                                             </li>
                                                                             <li>
-                                                                                <div className='d-flex'>
+                                                                                <label className='d-flex'>
                                                                                     <input type="radio" name="profile_activity"/>
-                                                                                    <div className='ml-3 line-1'>
+                                                                                    <div className='ml-3 radio-check line-1'>
                                                                                         <strong>In person</strong><br/>
                                                                                         <span>Book appointments for in person sessions</span>
                                                                                     </div>
-                                                                                </div>
+                                                                                </label>
                                                                             </li>
                                                                             
                                                                         </ui>
@@ -332,10 +333,11 @@ const FilterTabs = () => {
                                                                 </div>
 
                                                                 <div className="form-check mt-4 form-check-check" >
-                                                                    <input className=" mt-3" type="checkbox" value="" id="flexCheckDefault3" />
-                                                                    <label className="font-weight-bold text-white font-24 ml-2" for="flexCheckDefault3">
-                                                                    In person bookings
+                                                                    <label className="font-weight-bold text-white font-24 ml-2" for="flexCheckDefault2">
+                                                                         <input className=" mt-2" type="checkbox" value="" id="flexCheckDefault2" />
+                                                                        <span className='radio-check'>In person bookings</span> 
                                                                     </label>
+                                                                   
                                                                     <div className="form-check pl-4" >
                                                                         <span>Results will be ordered from closest to furthest from your location. Set your maximum distance.</span>
                                                                     </div>

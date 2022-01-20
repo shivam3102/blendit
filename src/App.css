@@ -2,6 +2,12 @@
 .head-bord{
   border-top: 1px solid;border-bottom: 1px solid;
 }
+/* .font-image-text {
+  font-family: 'Photoshoot Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Photoshoot Regular'),;
+  } */
 
 .site-header .sticky_header.fixed{
   z-index: 222 !important;
@@ -763,4 +769,8 @@ z-index: 1;
 .booking-timing span{
   font-size: 16px !important;
   color: #0064B2;
+}
+
+#tt-megamenu .tt-mega_menu .tt_menus_ul>li:hover>a>span{
+  color: white !important;
 }

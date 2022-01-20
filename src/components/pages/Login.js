@@ -3,50 +3,52 @@ import { Link } from 'react-router-dom';
 
 const Login = () => {
     return (
-        <main class="main-content">
-            <img src="assets/img/side-img.png" class="side-img" alt=""/>
-            <div class="container">
-                <div class="row">
-                    <div class="login col-sm-6">
-                        <div class="title-up">
+        <main className="main-content">
+            <img src="assets/img/side-img.png" className="side-img" alt=""/>
+            <div className="container">
+                <div className="row">
+                    <div className="login col-sm-6">
+                        <div className="title-up">
 
 
 
-                            <form action="" class="sign">
+                            <form action="" className="sign">
                                 <h4>
                                     Log into Blendit
                                 </h4>
                                 <p>
                                     Log in to your artist portal
                                 </p>
-                                <div class="input-gup">
-                                    <img src="assets/img/email.png" class="img" alt=""/>
+                                <div className="input-gup">
+                                    <img src="assets/img/email.png" className="img" alt=""/>
                                     <input type="text" placeholder="Email…"/>
                                 </div>
-                                <div class="input-gup">
-                                    <img src="assets/img/lock.png" class="img" alt=""/>
+                                <div className="input-gup">
+                                    <img src="assets/img/lock.png" className="img" alt=""/>
 
                                     <input type="text" placeholder="Create password..."/>
                                 </div>
 
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Remember me
+                                <div className="form-check form-check-check ">
+                                    <label className='form-check-label'>
+                                        <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                                        <span className="radio-check font-16" for="flexCheckDefault">
+                                            <small className='font-14'>Remember me</small>
+                                        </span>
                                     </label>
                                 </div>
 
                                 <span>
                               
-                                    <Link to="">Forgot your password?</Link>
+                                    <Link to="" className='font-weight-bold'>Forgot your password?</Link>
                                 </span>
-                                <button class="button">
+                                <Link to='/near-me' className="button">
                                     LOG IN
-                                </button>
+                                </Link>
 
                                 <span>
                                     Don’t have an account yet? 
-                                    <Link to="">Create account</Link>
+                                    <Link to="/welcome-register" className='font-weight-bold'> Create account</Link>
                                 </span>
                             </form>
 

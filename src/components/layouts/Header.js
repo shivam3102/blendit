@@ -11,7 +11,7 @@ const Header = () => {
                             <div class="header-logo">
                                 <div class="container-fluid">
 
-                                    <Link to="index.html">
+                                    <Link to="/">
                                         <img src="assets/img/main-logo.png" alt="theme-shade" title="theme-shade"/>
                                     </Link>
 
@@ -31,16 +31,30 @@ const Header = () => {
                                                     </Link>
                                                 </li> */}
                                                 <li class="tt_menu_item full tt_mm_hassub">
-                                                    <Link to="profile">
+                                                    <Link to="/">
                                                         <span class="tt_menu_item_heading_title">
-                                                            My products
+                                                            Home
                                                         </span>
                                                     </Link>
                                                 </li>
                                                 <li class="tt_menu_item full tt_mm_hassub">
                                                     <Link to="/about">
                                                         <span class="tt_menu_item_heading_title">
-                                                            Aboutus
+                                                            About Us
+                                                        </span>
+                                                    </Link>
+                                                </li>
+                                                <li class="tt_menu_item full tt_mm_hassub">
+                                                    <Link to="/near-me">
+                                                        <span class="tt_menu_item_heading_title">
+                                                            Artist
+                                                        </span>
+                                                    </Link>
+                                                </li>
+                                                <li class="tt_menu_item full tt_mm_hassub">
+                                                    <Link to="/blogs">
+                                                        <span class="tt_menu_item_heading_title">
+                                                            Blog
                                                         </span>
                                                     </Link>
                                                 </li>
@@ -54,21 +68,21 @@ const Header = () => {
                                                 
                                                 
                                                 <li class="tt_menu_item full tt_mm_hassub">
-                                                    <Link to="/login">
-                                                        <span class="tt_menu_item_heading_title">
-                                                            Login
+                                                    <Link to="/welcome-register" class="bg-white">
+                                                        <span class="tt_menu_item_heading_title col-primary">
+                                                            Signup
                                                         </span>
                                                     </Link>
                                                 </li>
-                                                <li class="tt_menu_item full tt_mm_hassub">
+                                                {/* <li class="tt_menu_item full tt_mm_hassub">
                                                     <Link to="/register">
                                                         <span class="tt_menu_item_heading_title">
                                                             Register
                                                         </span>
                                                     </Link>
-                                                </li>
+                                                </li> */}
                                               
-                                                <li class="more_menu tt_menu_item left">
+                                                {/* <li class="more_menu tt_menu_item left">
                                                 <Link to="#"><span class="tt_menu_item_heading_title">MORE<span></span></span></Link>
                                                 <ul class="tt_sub_menu_linklist tt_sub_menu_wrap ml-0">
                                                 <li id="menu--1546336998226" class="tt_menu_item left tt_mm_hassub">
@@ -94,7 +108,7 @@ const Header = () => {
                                                         </span>
                                                     </Link>
                                                     <div class="tt_sub_menu_wrap c-1 w-0" ></div>
-                                                </li></ul></li>
+                                                </li></ul></li> */}
                                                 {/* <li id="menu--1546336998226" class="tt_menu_item left tt_mm_hassub">
                                                     <Link to="#">
                                                         <span class="tt_menu_item_heading_title">

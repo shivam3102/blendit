@@ -24,6 +24,8 @@ import UserAbout from './components/pages/user/UserAbout';
 import Reference from './components/pages/user/Reference';
 import Payment from './components/pages/user/Payment';
 import Header from './components/layouts/Header';
+import WelcomeBlendit from './components/pages/user/WelcomeBlendit';
+import UserRegister from './components/pages/user/UserRegister';
 
 function App() {
   return (
@@ -43,6 +45,8 @@ function App() {
             <Route exact path='/about-you' element={<AboutYou/>}/>
 
             {/* //user */}
+            <Route exact path='/user-register' element={<UserRegister/>}/>
+            <Route exact path='/welcome-register' element={ <WelcomeBlendit/> }/>
             <Route exact path='/near-me' element={<NearMe/>}/>
             <Route exact path='/following' element={<NearMe/>}/>
             <Route exact path='/user-details' element={<Photos/>}/>

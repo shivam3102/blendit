@@ -19,7 +19,7 @@ const Home = () => {
                                     Find the Right Artists
                                 </h2>
 
-                                <Link to='' className='button w-50 mt-5 text-white'>FIND ARTIST</Link>
+                                <Link to='/near-me' className='button w-50 mt-5 text-white'>FIND ARTIST</Link>
                             </div>
                         </div>
                         <div className='col-md-8 ml-auto'>
