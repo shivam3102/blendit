@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Register = () => {
     return (
@@ -13,8 +14,7 @@ const Register = () => {
                             <h4>
                                 Join Blendit
                             </h4>
-                            <img src="assets/img/AsanArtist.png" className="mt-n3"  alt=""/>
-
+                            <h1 className='ar-text text my-4 product-head-title font-weight-light'>As an Artist</h1>
                             <ul className='artist-list font-14 text-white'>
                                 <li>
                                     <span>Reach a brand new customer base</span>
@@ -41,11 +41,11 @@ const Register = () => {
 
                                     <input type="text" placeholder="Create password..."/>
                                 </div>
-                                <a href="chek-login.html" className="button">
+                                <Link to="/login" className="button">
                                  
                                         SIGN UP - IT’S FREE
                             
-                                </a>
+                                </Link>
                                 <p>
                                     We’ll send you marketing promotions, special offers, inspiration and policy updates via email.
                                 </p>
@@ -61,7 +61,7 @@ const Register = () => {
                                 </div>
                                 <span>
                                     Already have an account?
-                                    <a href="login.html">Sign in</a>
+                                    <Link to="/login" >Sign in</Link>
                                 </span>
                             </form>
 

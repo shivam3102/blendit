@@ -9,9 +9,9 @@ const About = () => {
                 <div className="container">
                     <div className="row">
                         <div className="login text-white">
-                            <img src="assets/img/aboute.png" alt="" className="artist-2 pl-4"/>
-
+                            
                             <div className="col-sm-12">
+                            <h1 className='ar-text '>About You</h1>
 
                                 <h4 className="sub-title">
                                     Basic info and profile

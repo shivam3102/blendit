@@ -8,7 +8,8 @@ const Contactus = () => {
             <div className="container">
                 <div className="row">
                     <div className="login ">
-                        <img src="assets/img/AsanArtist-2.png" alt="" className="artist-2" />
+                        
+                        <h1 className='ar-text'>Welcome to Blendit, Lucill</h1>
                         <div className="title-up col-sm-6">
                             <h5>
                                 Let’s get going with your profile.

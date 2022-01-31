@@ -7,9 +7,8 @@ const ProfilePicture = () => {
                 <div className="container">
                     <div className="row">
                         <div className="login ">
-                            <img src="assets/img/Lookinggood.png" alt="" className="pl-30 artist-2"/>
-
                             <div className="col-sm-12">
+                                <h1 className='ar-text'>Looking good</h1>
 
                                 <h4 className="sub-title">
                                     Profile picture

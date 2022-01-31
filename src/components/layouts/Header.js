@@ -6,8 +6,8 @@ const Header = () => {
         <div id="shopify-section-header-model-2" className="shopify-section">
             <header class="site-header page-element header_2 " data-section-id="header-model-2" data-section-type="header">
                 <div class="wrapper-wrap logo_left menu_center">
-                    <div class="container nav-menu-wrap sticky_header">
-                        <div class="main-header">
+                    <div class="container-fluid nav-menu-wrap sticky_header">
+                        <div class="container main-header">
                             <div class="header-logo">
                                 <div class="container-fluid">
 

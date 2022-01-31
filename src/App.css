@@ -9,6 +9,33 @@
   src: local('Photoshoot Regular'),;
   } */
 
+  .pb-60{
+    padding-bottom: 60px;
+  }
+  .sasad{
+    height: 200px;
+    width: 200px;
+    background: white;
+    color: black;
+  }
+/* .slider-simple button{
+  width: 12px !important;
+  height: 12px !important;
+} */
+  @font-face {
+    font-family: 'Photoshoot Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Photoshoot Regular'), url('assets/fonts/Photoshoot.woff') format('woff');
+  }
+
+.ar-text{
+  font-family: 'Photoshoot Regular';
+  font-size: 57px;
+  color: #C62E65;
+  margin: 30px 0px;
+}
+
 .site-header .sticky_header.fixed{
   z-index: 222 !important;
 }
@@ -393,7 +420,7 @@ color: #fff;font-size: 13px;padding-left: 10px;
 }
 .product-head-title{
   font-weight: 700;
-  font-size: 72px;
+  font-size: 72px !important;
 }
 .pro-set-title{
   position: absolute;
@@ -774,3 +801,4 @@ z-index: 1;
 #tt-megamenu .tt-mega_menu .tt_menus_ul>li:hover>a>span{
   color: white !important;
 }
+

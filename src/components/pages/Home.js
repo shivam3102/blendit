@@ -96,8 +96,8 @@ const Home = () => {
                         <div className='mt-5 row artist-set'>
                             <div className='col-md-5 py-5'>
                                 <div className=''>
-                                    <img src='assets/img/AsanArtist.png' className='img-fluid w-100' alt='' />
-
+                                  
+                                    <h1 className='ar-text'>As an Artist</h1>
                                     <div className='mt-5'>
                                         <ul className='artist-list font-18 text-white'>
                                             <li>
@@ -111,13 +111,13 @@ const Home = () => {
                                             </li>
                                         </ul>
                                     </div>
-                                    <Link to="" className='button my-5 text-white'>SIGN UP - IT'S FREE</Link>
+                                    <Link to="/register" className='button my-5 text-white'>SIGN UP - IT'S FREE</Link>
                                 </div>
                             </div>
                             <div className='col-md-5 offset-md-2 py-5'>
                                 <div className=''>
-                                    <img src='assets/img/AsanArtist.png' className='img-fluid w-100' alt='' />
-
+                                   
+                                    <h1 className='ar-text'>As an User</h1>
                                     <div className='mt-5'>
                                         <ul className='artist-list font-18 text-white'>
                                             <li>
@@ -131,7 +131,7 @@ const Home = () => {
                                             </li>
                                         </ul>
                                     </div>
-                                    <Link to="" className='button my-5 text-white'>SIGN UP - IT'S FREE</Link>
+                                    <Link to="/user-register" className='button my-5 text-white'>SIGN UP - IT'S FREE</Link>
                                 </div>
                             </div>
                         </div>
